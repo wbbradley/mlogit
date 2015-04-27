@@ -15,6 +15,7 @@
 		BE6F28351AEDCB6000114CDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6F28341AEDCB6000114CDD /* Images.xcassets */; };
 		BE6F28381AEDCB6000114CDD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE6F28361AEDCB6000114CDD /* LaunchScreen.xib */; };
 		BE6F28441AEDCB6000114CDD /* mlogitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6F28431AEDCB6000114CDD /* mlogitTests.m */; };
+		BE6F284E1AEDCFFD00114CDD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6F284D1AEDCFFD00114CDD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BE6F283D1AEDCB6000114CDD /* mlogitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mlogitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6F28421AEDCB6000114CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6F28431AEDCB6000114CDD /* mlogitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mlogitTests.m; sourceTree = "<group>"; };
+		BE6F284D1AEDCFFD00114CDD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6F284E1AEDCFFD00114CDD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 		BE6F28181AEDCB6000114CDD = {
 			isa = PBXGroup;
 			children = (
+				BE6F284D1AEDCFFD00114CDD /* MapKit.framework */,
 				BE6F28231AEDCB6000114CDD /* mlogit */,
 				BE6F28401AEDCB6000114CDD /* mlogitTests */,
 				BE6F28221AEDCB6000114CDD /* Products */,

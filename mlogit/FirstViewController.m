@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	self.mapView.hidden = !self.switchIncludeLocation.on;
+}
+
+- (IBAction)includeLocationChanged:(id)sender {
+	NSLog(@"Include Location changed.");
+	self.mapView.hidden = !self.switchIncludeLocation.on;
 }
 
 - (void)didReceiveMemoryWarning {
